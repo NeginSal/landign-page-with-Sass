@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "BKoodak";
+  src: url(../dist/fonts/BKoodak.eot);
+  src: url(../dist/fonts/BKoodak.ttf);
+  src: url(../dist/fonts/BKoodak.woff); }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "BKoodak";
+  line-height: 1.6;
+  background: #fff; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+ul {
+  list-style: none; }
+
+img {
+  width: 100%; }
