@@ -10,7 +10,7 @@
 body{
     font-family: $font-family-BKoodak;
     line-height: 1.6;
-    background: #fff;
+    background: #333;
 }
 a{
     text-decoration: none;
@@ -21,4 +21,29 @@ ul{
 }
 img{
     width: 100%;
+}
+#main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+
+    ul{
+        display: flex;
+    }
+
+    li{
+        padding: 1rem 1.5rem;
+    }
+
+    a{
+        color: #fff;
+        border-bottom: 3px transparent solid;
+        padding-bottom: 0.5rem;
+        transition: border-color 0.5s;
+
+       &:hover{
+           border-color: $medium-color;
+       }
+    }
 }
