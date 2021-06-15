@@ -45,5 +45,26 @@ img{
        &:hover{
            border-color: $medium-color;
        }
+       &.active{
+           border-color: $primary-color;
+       }
+    }
+}
+#header{
+    &-home{
+        background:linear-gradient(rgba(20,20,20,0.5),rgba(20,20,20,0.5)),$bg-image no-repeat center center/cover ;
+        height: 100vh;
+        color: #fff;
+
+        .header-content{
+            text-align: center;
+            padding-top: 10%;
+
+
+            h1{
+                font-size: 3rem;
+                line-height: 1.2;
+            }
+        }
     }
 }
