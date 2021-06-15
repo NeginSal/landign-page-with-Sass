@@ -123,3 +123,21 @@ img {
   #home-1 .items .fas {
     color: #4834d4;
     padding-bottom: 0.4rem; }
+
+#home-2 .items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+  #home-2 .items li {
+    line-height: 2; }
+    #home-2 .items li.items-title {
+      font-size: 1.5rem; }
+    #home-2 .items li.items-number {
+      font-size: 2rem;
+      font-weight: bold; }
+  #home-2 .items div {
+    padding: 3rem 0; }
+    #home-2 .items div:nth-child(odd) {
+      background: #4834d4;
+      color: #fff; }
+    #home-2 .items div:nth-child(even) {
+      background: #f4f4f4; }
