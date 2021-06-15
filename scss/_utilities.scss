@@ -35,15 +35,6 @@
         background-color: $dark-color;
     }
   }
-
-
-
-
-
-
-
-
-
 .py {
     &-1{
         padding: 1rem 0;
@@ -74,3 +65,10 @@
     }
 
 }
+.bottom-line {
+    height: 2px;
+    width: 3rem;
+    background: $primary-color;
+    display: block;
+    margin: 0 auto 1rem auto;
+  }
