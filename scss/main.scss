@@ -167,7 +167,14 @@ img{
         }
       }
     }
-    // Footer
+
+
+
+
+
+
+}
+// Footer
 #main-footer {
   background: $dark-color;
   color: #fff;
@@ -195,7 +202,4 @@ img{
     }
   }
 }
-
-
-
-}
+@import 'media';
